@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+            height: 100%;
+        }
+        .content {
+           width: 100px;
+           height: 100px;
+           background-color: red; 
+           margin: auto;
+           position: relative;
+           top: calc(50% - 50px);
+           transition: all 1.5s;
+        }
+
+        .content:hover {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: calc(50% - 100px);
+            border-radius: 50%;
+            background: radial-gradient(circle, red, yellow, orange);
+            transform: rotate(360deg);
+            transition: all 1.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="content"></div>
+</body>
+</html>
