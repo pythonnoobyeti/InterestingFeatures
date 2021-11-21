@@ -1,2 +1,1 @@
-# other
-Other HTML, CSS, JS files.
+Repo with interesting html, css, js features.
